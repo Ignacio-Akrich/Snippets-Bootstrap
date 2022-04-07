@@ -1,0 +1,102 @@
+body{margin-top:20px;
+    color: #bcd0f7;
+    background: #1A233A;
+    position: relative;
+    height: 100%;
+}
+.container-fluid{
+    margin-top: 2%;
+}
+.pricing-plan {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    position: relative;
+    background: #272e48;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.pricing-plan .pricing-header .pricing-title {
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header .pricing-cost {
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header .text-muted {
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header .pricing-save {
+    color: #ffffff;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.pricing-plan .pricing-header {
+    padding: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: linear-gradient(120deg, #6ffaff 0%, #0047b1 100%);
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+    ;
+}
+.pricing-plan .pricing-header.secondary {
+    background-image: linear-gradient(120deg, #8de772 0%, #3f6e1e 100%);
+}
+.pricing-plan .pricing-header.orange {
+    background-image: linear-gradient(120deg, #fab355 0%, #f87903 100%);
+}
+.pricing-plan .pricing-header.demo {
+    background-image: linear-gradient(120deg, #fa7474 0%, #b40000 100%);
+}
+.pricing-plan .pricing-features {
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+    
+}
+.pricing-plan .pricing-features li {
+    padding: 15px 15px 15px 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    line-height: 100%;
+    color:#aee7ff
+}
+
+.pricing-plan .pricing-footer {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+@media (max-width: 767px) {
+    .pricing-plan .pricing-header {
+        text-align: center;
+    }
+    .pricing-plan .pricing-header i {
+        display: block;
+        float: none;
+        margin-bottom: 1.5rem;
+    }
+}
