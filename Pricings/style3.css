@@ -1,0 +1,48 @@
+body{margin-top:20px;
+    background:#eee;
+    }
+    .border-base-color {
+        border-color: #ef4135 !important;
+    }
+    
+    .box-shadow {
+        box-shadow: 0 0 25px 0 rgba(0,0,0,.05);
+    }
+    .border-extra-thick {
+        border-width: 4px!important;
+    }
+    .border-top {
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+    .text-center {
+        text-align: center!important;
+    }
+    .border-top {
+        border-top: 1px solid #dee2e6!important;
+    }
+    .bg-black {
+        background-color: #000!important;
+    }
+    .title-large {
+        font-size: 1.75rem!important;
+        line-height: 2.275rem!important;
+    }
+    .pricing .price .symbol {
+        bottom: 36px;
+        position: relative;
+    }
+    .title-medium {
+        font-size: 1.5rem!important;
+        line-height: 2.25rem!important;
+    }
+    .title-extra-large-5 {
+        font-size: 5rem!important;
+        line-height: 5rem!important;
+    }
+    .text-medium {
+        font-size: .875rem!important;
+        line-height: 1.313rem!important;
+    }
+    .bg-base-color {
+        background-color: #ef4135 !important;
+    }
