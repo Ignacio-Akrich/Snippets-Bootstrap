@@ -1,0 +1,33 @@
+body {
+  background-color: #545cac;
+}
+
+.carousel-item {
+  background-blend-mode: linear-gradient(to bottom, #33ccff 25%, #0033cc 100%) 
+}
+
+.carousel-caption p {
+  
+  font-size: 18px;
+}
+
+.carousel-caption button {
+  opacity: 0.9;
+}
+
+#btn-carousel {
+  opacity: 0.2;
+  width: 5%;
+}
+
+
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
