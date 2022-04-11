@@ -1,0 +1,54 @@
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #28cc1f 50%, #0f850f 50%);
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.copyright-content {
+    bottom: 0;
+    position: absolute;
+}
+
+.social-media {
+    bottom: -10%;
+    position: relative;
+    margin-right: 25%;
+    right: -90%;
+
+}
+
+.social-media a {
+    display:inline-block;
+    margin:0 8px;
+    color: antiquewhite;
+   
+}
+
+ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+ul a {
+    color: blanchedalmond;
+    text-decoration:none;
+  }
+
+  ul a:hover {
+    opacity:0.8;
+  }
+
+.col-md-6.item.text p {
+    color: blanchedalmond;
+}
